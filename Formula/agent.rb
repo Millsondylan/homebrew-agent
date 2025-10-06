@@ -1,9 +1,9 @@
 class Agent < Formula
   include Language::Python::Virtualenv
-  desc "Always-on offline-first coding agent with production gates and TUI"
+  desc "Modern CLI control panel for autonomous AI agents"
   homepage "https://github.com/Millsondylan/Offline_ai_agents"
-  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "0051b851bf3ebf61cb6c16268663e38accd88ba1fc0477000fe31f659474fb6b"
+  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "168006352eedfdb1b8b98de2f2d28a1e6eb0c0b4cc730da2df06ba0db190916b"
   license "Apache-2.0"
   depends_on "python@3.12"
 
@@ -12,12 +12,7 @@ class Agent < Formula
   end
 
   def post_install
-    # Install TUI dependencies
-    system libexec/"bin/python", "-m", "pip", "install", "--quiet",
-           "textual>=0.47.0",
-           "watchdog>=3.0.0",
-           "requests>=2.31.0",
-           "keyring>=24.0.0"
+    # No additional dependencies needed - uses Python curses (built-in)
   end
 
   service do
