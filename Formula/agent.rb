@@ -3,7 +3,7 @@ class Agent < Formula
   desc "Modern CLI control panel for autonomous AI agents"
   homepage "https://github.com/Millsondylan/Offline_ai_agents"
   url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "168006352eedfdb1b8b98de2f2d28a1e6eb0c0b4cc730da2df06ba0db190916b"
+  sha256 "84b86f1dfcb88c02b04a316dbf40bc082c276c3b014877bc805982db45850b51"
   license "Apache-2.0"
   depends_on "python@3.12"
 
