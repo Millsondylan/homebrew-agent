@@ -2,8 +2,8 @@ class Agent < Formula
   include Language::Python::Virtualenv
   desc "Always-on offline-first coding agent with production gates and TUI"
   homepage "https://github.com/Millsondylan/Offline_ai_agents"
-  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v0.3.8.tar.gz"
-  sha256 "0396882fbe1f8bc0bc3a1707f21f8d74b8d6fceb3e43a80783cbee87b10ff509"
+  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v0.3.9.tar.gz"
+  sha256 "f75481668824c675610b5c175271c5f572d51187a79d20dea36ba1f078ea2446"
   license "Apache-2.0"
   depends_on "python@3.12"
 
