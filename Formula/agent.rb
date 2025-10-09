@@ -2,8 +2,8 @@ class Agent < Formula
   include Language::Python::Virtualenv
   desc "Autonomous AI coding agent with LLM integration, comprehensive verification, and dashboard"
   homepage "https://github.com/Millsondylan/Offline_ai_agents"
-  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.2.5.tar.gz"
-  sha256 "4270c99b92ef8088ec1809da9f85231198fb8e253b671a84b1845185d65a1fc2"
+  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "3bd2806d7d3822efec3db150875e2539c7363e93cd734303394d3cbe08517d06"
   license "Apache-2.0"
   depends_on "python@3.12"
 
@@ -20,7 +20,11 @@ class Agent < Formula
            "semgrep>=1.0.0",        # Security and code quality scanner
            "mypy>=1.0.0",           # Type checker
            "pip-audit>=2.0.0",      # Dependency vulnerability scanner
-           "coverage>=7.0.0"        # Code coverage analysis
+           "coverage>=7.0.0",       # Code coverage analysis
+           "textual>=0.47.0",       # TUI framework
+           "watchdog>=3.0.0",       # File system monitoring
+           "requests>=2.31.0",      # HTTP requests
+           "keyring>=24.0.0"        # Secure key storage
 
     # Ensure the tools are accessible in PATH
     bin_path = libexec/"bin"
