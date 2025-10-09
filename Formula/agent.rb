@@ -3,7 +3,7 @@ class Agent < Formula
   desc "Autonomous AI coding agent with LLM integration, comprehensive verification, and dashboard"
   homepage "https://github.com/Millsondylan/Offline_ai_agents"
   url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "3bd2806d7d3822efec3db150875e2539c7363e93cd734303394d3cbe08517d06"
+  sha256 "848381999c1ba40fd5e58309db6f6becfc6a6ad80c77290bf012a93b4571f468"
   license "Apache-2.0"
   depends_on "python@3.12"
 
