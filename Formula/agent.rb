@@ -2,8 +2,8 @@ class Agent < Formula
   include Language::Python::Virtualenv
   desc "Autonomous AI coding agent with LLM integration, comprehensive verification, and dashboard"
   homepage "https://github.com/Millsondylan/Offline_ai_agents"
-  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.3.3.tar.gz"
-  sha256 "07af15ba0904a5cc048eeae87bb255c8256810b2cdb7672cc3da80c35ade4154"
+  url "https://github.com/Millsondylan/Offline_ai_agents/archive/refs/tags/v1.3.4.tar.gz"
+  sha256 "e9dc4575b649df0cca2a29d663d6058ec73110e2c3e20a9352f0e7dd565fcd14"
   license "Apache-2.0"
   depends_on "python@3.12"
 
